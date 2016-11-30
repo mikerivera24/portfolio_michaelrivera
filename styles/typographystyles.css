@@ -1,3 +1,7 @@
+/* Place this at the very top of your typographystyles.css document */
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
+
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
 /* Do not change this style */
@@ -96,12 +100,52 @@ section {
 
 /* Do not change this style */
 section p {
-  font-size: 1em;
+  font-size: 1.13em;
   margin: 2em 4em;
-  max-width: 40%;
+  max-width: 50%;
 }
 
 
 #target{
-  font-size: 1.6em;
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+
+
+/* Place these styles towards the bottom of your typographystyles.css document */
+
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  /* Change the font-weight property to give it a thin-weight */
+}
+
+#weight2 {
+  /* Change the font-weight property to give it a light-weight */
+}
+
+#weight3 {
+  /* Change the font-weight property to give it a regular-weight */
+}
+
+#weight4 {
+  /* Change the font-weight property to give it a bold-weight */
+}
+
+#weight5 {
+  /* Change the font-weight property to give it a ultra-bold-weight */
+}
+
+#grandCanyon {
+  background-image: url("../images/grand_canyon.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+  font-size: 1em;
 }
