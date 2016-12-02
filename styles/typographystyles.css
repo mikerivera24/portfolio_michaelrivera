@@ -1,7 +1,6 @@
 /* Place this at the very top of your typographystyles.css document */
-
+@import url ('https://fonts.googleapis.com/css?family=Bree+Serif" rel="stylesheet');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
-
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
 /* Do not change this style */
@@ -140,6 +139,15 @@ section p {
   /* Change the font-weight property to give it a ultra-bold-weight */
 }
 
+/*
+  POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
+  * Use two different typefaces (a serif and a sans-serif)
+  * Use at least three different font-sizes
+  * Use a color that contrasts with the background image
+      * Recommended to use the text-shadow property to increase contrast
+  * Use a hierarchy that emphasizes the most important words
+      * Font size, font weight, logical grouping, orientation
+  */
 #grandCanyon {
   background-image: url("../images/grand_canyon.jpg");
   background-size: cover;
@@ -147,5 +155,26 @@ section p {
   height: 500px;
   width: 800px;
   margin: 0 auto;
+  color: gold;
   font-size: 1em;
+}
+
+#gcTitle {
+  font-size: 3em;
+  margin-left: 150px;
+font-family:'Bree Serif', serif;
+font-weight: bolder;
+}
+
+#gcdetails {
+  color: yellow;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#gcvisit {
+  font-size: 2em;
+  font-family: georgia;
+  color: green;
+  font-weight: bolder;
 }
