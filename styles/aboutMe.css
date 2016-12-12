@@ -2,13 +2,15 @@
 
 body {
 color:black;
-  background-color: grey;
+  background-color: lightgrey;
   font-family:helvetica;
 }
 
 a {
   color: white;
   font-family: arial;
+  letter-spacing:5px;
+  line-height: 20px;
 }
 
 h1 {
@@ -16,4 +18,15 @@ h1 {
   text-align: center;
   font-size: 3em;
   font-family: ;
+}
+
+#aboutmePhoto {
+  text-align: center;
+  margin: 0;
+}
+
+h2 {
+  color:white;
+  font-size: 30px;
+  font-family: georgia;
 }
