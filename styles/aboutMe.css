@@ -1,23 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald|Roboto');
 
 
 body {
-color:black;
+color:grey;
   background-color: lightgrey;
-  font-family:helvetica;
+  font-family:Roboto;
+  line-height: 1.5;
+  font-size: 16px;
+  width: 80%;
+  margin: 0;
 }
 
 a {
-  color: white;
-  font-family: arial;
+  color:  #e81c4f;
+  font-family: Oswald;
   letter-spacing:5px;
   line-height: 20px;
+  font-size: 1.1em;
+  text-decoration: none;
 }
 
 h1 {
   color: black;
   text-align: center;
   font-size: 3em;
-  font-family: ;
+  font-family:Oswald ;
 }
 
 #aboutmePhoto {
@@ -28,5 +35,6 @@ h1 {
 h2 {
   color:white;
   font-size: 30px;
-  font-family: georgia;
+  font-family: Merriweather;
+  text-align: center;
 }
