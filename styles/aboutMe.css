@@ -15,16 +15,28 @@ a {
   color:  #e81c4f;
   font-family: Oswald;
   letter-spacing:5px;
+<<<<<<< Updated upstream
   line-height: 20px;
   font-size: 1.1em;
   text-decoration: none;
+=======
+  line-height: 7px;
+  display: block;
+  padding: 6px;
+  background-color: #dddddd;
+>>>>>>> Stashed changes
 }
 
 h1 {
   color: black;
   text-align: center;
   font-size: 3em;
+<<<<<<< Updated upstream
   font-family:Oswald ;
+=======
+  font-family:georgia ;
+  font-weight: bolder;
+>>>>>>> Stashed changes
 }
 
 #aboutmePhoto {
