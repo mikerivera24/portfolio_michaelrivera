@@ -8,21 +8,18 @@ color:grey;
   line-height: 1.5;
   font-size: 16px;
   width: 80%;
-  margin: 0;
+  margin: 0 auto;
 }
 
 a {
   color:  #e81c4f;
   font-family: Oswald;
-  letter-spacing:5px;
-  line-height: 20px;
+  letter-spacing:1px;
   font-size: 1.1em;
   text-decoration: none;
-  line-height: 7px;
   display: block;
   padding: 0;
-  background-color: #dddddd;
-  float: inherit;
+  background-color: #ddd;
 }
 
 h1 {
@@ -34,9 +31,12 @@ h1 {
 
 #aboutmePhoto {
   text-align: center;
-  margin: 0;
+  margin: 0 auto;
   border-radius: 10px;
   max-width: 500px;
+  display: block;
+  height: 500px;
+  clear: both;
 }
 
 h2 {
@@ -46,10 +46,28 @@ h2 {
   text-align: center;
   background-color:#e81c4f;
   padding: 0;
+}
+
+.bioDetails {
+  width: 20%;
   float: left;
 }
 
-#bioDetails {
-  max-width: 50%;
+div ul li {
+margin-bottom: 20px;
+}
+
+div ul {
+  padding: 10px;
+}
+
+nav ul li {
   float: left;
+  width:12%;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style: none;
+  text-align: center;
 }
