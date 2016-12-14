@@ -15,38 +15,41 @@ a {
   color:  #e81c4f;
   font-family: Oswald;
   letter-spacing:5px;
-<<<<<<< Updated upstream
   line-height: 20px;
   font-size: 1.1em;
   text-decoration: none;
-=======
   line-height: 7px;
   display: block;
-  padding: 6px;
+  padding: 0;
   background-color: #dddddd;
->>>>>>> Stashed changes
+  float: inherit;
 }
 
 h1 {
   color: black;
   text-align: center;
   font-size: 3em;
-<<<<<<< Updated upstream
   font-family:Oswald ;
-=======
-  font-family:georgia ;
-  font-weight: bolder;
->>>>>>> Stashed changes
 }
 
 #aboutmePhoto {
   text-align: center;
   margin: 0;
+  border-radius: 10px;
+  max-width: 500px;
 }
 
 h2 {
   color:white;
-  font-size: 30px;
+  font-size: 1.3em;
   font-family: Merriweather;
   text-align: center;
+  background-color:#e81c4f;
+  padding: 0;
+  float: left;
+}
+
+#bioDetails {
+  max-width: 50%;
+  float: left;
 }
