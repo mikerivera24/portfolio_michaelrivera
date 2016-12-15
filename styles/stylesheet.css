@@ -1,47 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Molle:400i');
 
 body {
 line-height: 1.5;
   font-size:1em;
   font-weight: normal;
-  font-family:cooper std, sans-serif;
+  font-family: Oswald;
   color: black;
   text-align: left;
   background-color: lightgrey;
   }
   h1 {
     font-size: 3em;
-    font-weight: bold;
-    color: hotpink;
+    color: black;
     text-align: center;
-    border: 3px solid #1e90ff;
+    border: 3px solid  #1e90ff;
     border-radius: 2em;
-    box-shadow: 10px 10px 5px #FF69B4;
+    box-shadow: 10px 10px 5px #FFFFFF;
+    font-family: Molle;
   }
 h2 {
-  font-family:cooper std,sans-serif;
+  font-family: Molle;
   font-size: 30px;
-  color:hotpink;
+  color: white;
 }
 h3 {
   font-family:cooper std,sans-serif;
   font-size: 30px;
-  color:hotpink;
+  color: black;
 }
 p {
-font-family:courier;
-  color:dodgerblue;
+font-family: Oswald;
+  color: black;
+  font-size: 19px;
 }
 ul {
-  font-family:courier;
+  font-family: Merriweather;
   color: dodgerblue;
   font-size:18px;
 }
 ol {
-font-family: cooper std, sans-serif;
-  color:hotpink;
+font-family: Oswald;
+  color: black;
   font-size:18px;
 }
 
 a {
-  color: hotpink;
+  color: white;
+font-family: Oswald;
 }
